@@ -52,3 +52,33 @@ document.addEventListener('DOMContentLoaded', function(){
         });
     }
 })
+
+/* slider */
+document.addEventListener("DOMContentLoaded", () => {
+    const slides = document.querySelectorAll(".slide");
+    let currentIndex = 0;
+    slides[currentIndex].classList.add("active");
+  
+    document.getElementById("nextBtn").addEventListener("click", () => {
+      slides[currentIndex].classList.remove("active");
+  
+      if (currentIndex === slides.length - 1) {
+        currentIndex = 0;
+      } else {
+        currentIndex++; 
+      }
+  
+      slides[currentIndex].classList.add("active");
+    });
+  
+    document.getElementById("prevBtn").addEventListener("click", () => {
+      slides[currentIndex].classList.remove("active");
+      if (currentIndex === 0) {
+        currentIndex = slides.length - 1;
+      } else {
+        currentIndex--;
+      }
+      slides[currentIndex].classList.add("active");
+    });
+  });
+  

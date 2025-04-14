@@ -1,343 +1,400 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Practice 5</title>
 
-    <link rel="stylesheet" href="assets/style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css" />
     <script src="assets/js/main.js" defer></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <div class="header-content container">
-            <nav>
-                <div class="logo">
-                    <img src="assets/img/icons/logo.png" alt="">
-                </div>
+      <div class="header-content container">
+        <nav>
+          <div class="logo">
+            <img src="assets/img/icons/logo.png" alt="" />
+          </div>
 
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunction()">Product <img src="assets/img/icons/arrow.svg"
-                            alt=""></button>
-                    <div class="dropdown-content" id="myDropdown">
-                        <a href="#">что-то</a>
-                        <a href="#">что-то</a>
-                        <a href="#">что-то</a>
-                    </div>
-                </div>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunction()">
+              Product <img src="assets/img/icons/arrow.svg" alt="" />
+            </button>
+            <div class="dropdown-content" id="myDropdown">
+              <a href="#">что-то</a>
+              <a href="#">что-то</a>
+              <a href="#">что-то</a>
+            </div>
+          </div>
 
-                <div class="dropdown">
-                    <button class="dropbtn" onclick="myFunctionTwo()">Developers <img src="assets/img/icons/arrow.svg"
-                            alt=""></button>
-                    <div class="dropdown-content" id="myDropdownTwo">
-                        <a href="#">что-то</a>
-                        <a href="#">что-то</a>
-                        <a href="#">что-то</a>
-                    </div>
-                </div>
+          <div class="dropdown">
+            <button class="dropbtn" onclick="myFunctionTwo()">
+              Developers <img src="assets/img/icons/arrow.svg" alt="" />
+            </button>
+            <div class="dropdown-content" id="myDropdownTwo">
+              <a href="#">что-то</a>
+              <a href="#">что-то</a>
+              <a href="#">что-то</a>
+            </div>
+          </div>
 
-                <a href="#">Beta</a>
-                <a href="#">Pricing</a>
-            </nav>
+          <a href="#">Beta</a>
+          <a href="#">Pricing</a>
+        </nav>
 
-            <nav>
-                <a href="#" class="btn">Start your project</a>
+        <nav>
+          <a href="#" class="btn">Start your project</a>
 
-                <a href="#" class="sign_in">Sign in</a>
-            </nav>
-        </div>
+          <a href="#" class="sign_in">Sign in</a>
+        </nav>
+      </div>
     </header>
 
     <!-- banner -->
     <div class="banner container">
-        <div class="left-box">
-            <div class="top_left-box">
-                <div class="txt">
-                    <img src="assets/img/icons/storage-img.svg" alt="">
-                    <p>Storage</p>
-                </div>
+      <div class="left-box">
+        <div class="top_left-box">
+          <div class="txt">
+            <img src="assets/img/icons/storage-img.svg" alt="" />
+            <p>Storage</p>
+          </div>
 
-                <p class="title">
-                    Store and serve <br>any type of digital content
-                </p>
-            </div>
-
-            <div class="mid">
-                <p class="desc">
-                    An open source Object store service with unlimited scalability, <br>for any file type.
-                </p>
-
-                <p class="desc">
-                    With custom policies and permissions that are familiar and easy to <br>implement.
-                </p>
-            </div>
-
-            <a href="#" class="btn">
-                Start a project
-            </a>
+          <p class="title">Store and serve <br />any type of digital content</p>
         </div>
 
-        <div class="rigth-box">
-            <img src="assets/img/banner/banner.svg" alt="">
+        <div class="mid">
+          <p class="desc">
+            An open source Object store service with unlimited scalability,
+            <br />for any file type.
+          </p>
+
+          <p class="desc">
+            With custom policies and permissions that are familiar and easy to
+            <br />implement.
+          </p>
         </div>
+
+        <a href="#" class="btn"> Start a project </a>
+      </div>
+
+      <div class="rigth-box">
+        <img src="assets/img/banner/banner.svg" alt="" />
+      </div>
     </div>
 
     <!-- advanteges -->
-    <div class="advanteges container ">
-        <div class="card">
-            <div class="top">
-                <img src="assets/img/icons/adv1.svg" alt="">
-                <p class="title">Interoperable</p>
-            </div>
-
-            <p class="desc">
-                Integrates well with the rest of Supabase ecosystem, including Auth and Postgres.
-            </p>
+    <div class="advanteges container">
+      <div class="card">
+        <div class="top">
+          <img src="assets/img/icons/adv1.svg" alt="" />
+          <p class="title">Interoperable</p>
         </div>
 
-        <div class="card">
-            <div class="top">
-                <img src="assets/img/icons/adv2.svg" alt="" class="resize">
-                <p class="title">Lightning fast</p>
-            </div>
+        <p class="desc">
+          Integrates well with the rest of Supabase ecosystem, including Auth
+          and Postgres.
+        </p>
+      </div>
 
-            <p class="desc">
-                Thin API server layer that leverages Postgres' permissions and performance.
-            </p>
+      <div class="card">
+        <div class="top">
+          <img src="assets/img/icons/adv2.svg" alt="" class="resize" />
+          <p class="title">Lightning fast</p>
         </div>
 
-        <div class="card">
-            <div class="top">
-                <img src="assets/img/icons/adv3.svg" alt="" class="resize">
-                <p class="title">Dependable</p>
-            </div>
+        <p class="desc">
+          Thin API server layer that leverages Postgres' permissions and
+          performance.
+        </p>
+      </div>
 
-            <p class="desc">
-                Enterprise-level scalability and durability.
-            </p>
+      <div class="card">
+        <div class="top">
+          <img src="assets/img/icons/adv3.svg" alt="" class="resize" />
+          <p class="title">Dependable</p>
         </div>
+
+        <p class="desc">Enterprise-level scalability and durability.</p>
+      </div>
     </div>
 
     <!-- media -->
     <div class="media container">
-        <div class="top">
-            <p class="title">Sleek dashboard for managing your media</p>
-            <p class="desc">A complete Object Explorer so that any of your team can use.</p>
-            <p class="desc_second">
-                Drag and drop uploading, moving objects, and multiple object selection. As easy as working on your
-                desktop.
+      <div class="top">
+        <p class="title">Sleek dashboard for managing your media</p>
+        <p class="desc">
+          A complete Object Explorer so that any of your team can use.
+        </p>
+        <p class="desc_second">
+          Drag and drop uploading, moving objects, and multiple object
+          selection. As easy as working on your desktop.
+        </p>
+      </div>
+
+      <div class="media-content">
+        <div class="left-box">
+          <nav>
+            <a href="">File previews</a>
+            <a href="">Column view</a>
+            <a href="">List view</a>
+            <a href="">Multi select actions</a>
+            <a href="">Path navigator</a>
+          </nav>
+          <img src="assets/img/banner/img1.png" alt="" />
+        </div>
+
+        <div class="right-box">
+          <div class="right-box__top">
+            <p class="title">File previews</p>
+
+            <p class="desc">
+              Preview any media type, including video and audio.
             </p>
-        </div>
+          </div>
 
-        <div class="media-content">
-            <div class="left-box">
-                <nav>
-                    <a href="">File previews</a>
-                    <a href="">Column view</a>
-                    <a href="">List view</a>
-                    <a href="">Multi select actions</a>
-                    <a href="">Path navigator</a>
-                </nav>
-                <img src="assets/img/banner/img1.png" alt="">
+          <div class="right-box__mid">
+            <p class="title">Check out our example app</p>
+
+            <div class="box">
+              <p class="title">Profile management example</p>
+
+              <div class="desc">
+                Update a user account with public profile information, including
+                uploading a profile image.
+              </div>
+
+              <div class="bottom__box">
+                <p>Created by:</p>
+                <img src="assets/img/icons/favicon.svg" alt="" />
+                <p>supabase</p>
+              </div>
             </div>
 
-            <div class="right-box">
-                <div class="right-box__top">
-                    <p class="title">
-                        File previews
-                    </p>
+            <div class="right-box__bottom">
+              <div class="top">
+                <p>nextjs-ts-user-management</p>
+                <img src="assets/img/icons/git_second.svg" alt="" />
+              </div>
 
-                    <p class="desc">Preview any media type, including video and audio.</p>
-                </div>
-
-                <div class="right-box__mid">
-                    <p class="title">
-                        Check out our example app
-                    </p>
-
-                    <div class="box">
-                        <p class="title">
-                            Profile management example
-                        </p>
-
-                        <div class="desc">
-                            Update a user account with public profile information, including uploading a profile image.
-                        </div>
-
-                        <div class="bottom__box">
-                            <p>Created by:</p>
-                            <img src="assets/img/icons/favicon.svg" alt="">
-                            <p>supabase</p>
-                        </div>
-                    </div>
-
-                    <div class="right-box__bottom">
-                        <div class="top">
-                            <p>nextjs-ts-user-management</p>
-                            <img src="assets/img/icons/git_second.svg" alt="">
-                        </div>
-
-                        <div class="bottom">
-                            <button class="left-btn mediaBtn">▲</button>
-                            <button class="mediaBtn">Deploy</button>
-                        </div>
-
-                    </div>
-                </div>
+              <div class="bottom">
+                <button class="left-btn mediaBtn">▲</button>
+                <button class="mediaBtn">Deploy</button>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
+    </div>
+
+    <div class="slider container">
+      <h1>Reviews</h1>
+      <div class="slide active">
+        <div class="slide-content">
+          <p class="title">
+            <img src="assets/img/icons/git.svg" alt="" />
+            Nikita Pavlovich
+          </p>
+
+          <p class="desc">
+            This service has transformed the way we manage our digital content.
+            The ability to support any file type is a game-changer for our team.
+            I love that we can set specific permissions tailored to our needs,
+            which makes collaboration seamless. The scalability is also a major
+            plus—no more worrying about running out of space!
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-content">
+          <p class="title">
+            <img src="assets/img/icons/git.svg" alt="" />
+            Paul Du Rove
+          </p>
+
+          <p class="desc">
+            As a developer, I appreciate the open-source aspect of this storage solution. It’s easy to integrate into our existing systems, and the documentation is clear and comprehensive. The unlimited scalability means we can grow without limits, and the customizable policies allow us to maintain tight security on our files. Excellent service!
+          </p>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-content">
+          <p class="title">
+            <img src="assets/img/icons/git.svg" alt="" />
+            Anonymous
+          </p>
+
+          <p class="desc">
+            While the object storage service has great potential, I found the initial setup a bit challenging. However, once I got the hang of it, the features really shined. The ability to store any file type and manage permissions is fantastic. I just wish there were more tutorials available for beginners.
+          </p>
+        </div>
+      </div>
+
+      <div class="slider_btn">
+        <button id="prevBtn">←</button>
+        <button id="nextBtn">→</button>
+      </div>
     </div>
 
     <!-- accordion -->
     <div class="accordion-content container">
-        <p class="title">
-            Integrates natively <br> with Supabase Auth
+      <p class="title">
+        Integrates natively <br />
+        with Supabase Auth
+      </p>
+
+      <button class="accordion">
+        <p>Using Postgres Row Level Security to create Object access rules.</p>
+        <img src="assets/img/icons/arrow.svg" alt="" />
+      </button>
+      <div class="panel">
+        <p>
+          Storage Authorization is built around Postgres so that you can use any
+          combination of SQL, Postgres functions, and even your own metadata to
+          write policies.Storage Authorization is built around Postgres so that
+          you can use any combination of SQL, Postgres functions, and even your
+          own metadata to write policies.Storage is built around Postgres so
+          that you can use any combination of SQL, Postgres functions, and even
+          your own metadata to write policies.
         </p>
 
-        <button class="accordion">
-            <p>Using Postgres Row Level Security to create Object access rules.</p>
-            <img src="assets/img/icons/arrow.svg" alt="">
-        </button>
-        <div class="panel">
-            <p>
-                Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.Storage Authorization is built around Postgres
-                so that you can use any combination of SQL, Postgres functions, and even your own metadata to write
-                policies.Storage is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.</p>
+        <a href="#" class="btn">
+          <img src="assets/img/icons/Vector.svg" alt="" /> Expore documentation
+        </a>
+      </div>
 
-            <a href="#" class="btn">
-                <img src="assets/img/icons/Vector.svg" alt=""> Expore documentation
-            </a>
-        </div>
+      <button class="accordion">
+        Using Postgres Row Level Security to create Object access rules.
+        <img src="assets/img/icons/arrow.svg" alt="" />
+      </button>
+      <div class="panel">
+        <p>
+          Storage Authorization is built around Postgres so that you can use any
+          combination of SQL, Postgres functions, and even your own metadata to
+          write policies.Storage Authorization is built around Postgres so that
+          you can use any combination of SQL, Postgres functions, and even your
+          own metadata to write policies.Storage is built around Postgres so
+          that you can use any combination of SQL, Postgres functions, and even
+          your own metadata to write policies.
+        </p>
 
-        <button class="accordion">
-            Using Postgres Row Level Security to create Object access rules.
-            <img src="assets/img/icons/arrow.svg" alt="">
-        </button>
-        <div class="panel">
-            <p>
-                Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.Storage Authorization is built around Postgres
-                so that you can use any combination of SQL, Postgres functions, and even your own metadata to write
-                policies.Storage is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.</p>
+        <a href="#" class="btn">
+          <img src="assets/img/icons/Vector.svg" alt="" /> Expore documentation
+        </a>
+      </div>
 
-            <a href="#" class="btn">
-                <img src="assets/img/icons/Vector.svg" alt=""> Expore documentation
-            </a>
-        </div>
+      <button class="accordion">
+        Using Postgres Row Level Security to create Object access rules.
+        <img src="assets/img/icons/arrow.svg" alt="" />
+      </button>
+      <div class="panel">
+        <p>
+          Storage Authorization is built around Postgres so that you can use any
+          combination of SQL, Postgres functions, and even your own metadata to
+          write policies.Storage Authorization is built around Postgres so that
+          you can use any combination of SQL, Postgres functions, and even your
+          own metadata to write policies.Storage is built around Postgres so
+          that you can use any combination of SQL, Postgres functions, and even
+          your own metadata to write policies.
+        </p>
 
-        <button class="accordion">
-            Using Postgres Row Level Security to create Object access rules.
-            <img src="assets/img/icons/arrow.svg" alt="">
-        </button>
-        <div class="panel">
-            <p>
-                Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.Storage Authorization is built around Postgres
-                so that you can use any combination of SQL, Postgres functions, and even your own metadata to write
-                policies.Storage is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.</p>
+        <a href="#" class="btn">
+          <img src="assets/img/icons/Vector.svg" alt="" /> Expore documentation
+        </a>
+      </div>
 
-            <a href="#" class="btn">
-                <img src="assets/img/icons/Vector.svg" alt=""> Expore documentation
-            </a>
-        </div>
+      <button class="accordion">
+        Using Postgres Row Level Security to create Object access rules.
+        <img src="assets/img/icons/arrow.svg" alt="" />
+      </button>
+      <div class="panel">
+        <p>
+          Storage Authorization is built around Postgres so that you can use any
+          combination of SQL, Postgres functions, and even your own metadata to
+          write policies.Storage Authorization is built around Postgres so that
+          you can use any combination of SQL, Postgres functions, and even your
+          own metadata to write policies.Storage is built around Postgres so
+          that you can use any combination of SQL, Postgres functions, and even
+          your own metadata to write policies.
+        </p>
 
-        <button class="accordion">
-            Using Postgres Row Level Security to create Object access rules.
-            <img src="assets/img/icons/arrow.svg" alt="">
-        </button>
-        <div class="panel">
-            <p>
-                Storage Authorization is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.Storage Authorization is built around Postgres
-                so that you can use any combination of SQL, Postgres functions, and even your own metadata to write
-                policies.Storage is built around Postgres so that you can use any combination of SQL, Postgres
-                functions, and even your own metadata to write policies.</p>
-
-            <a href="#" class="btn">
-                <img src="assets/img/icons/Vector.svg" alt=""> Expore documentation
-            </a>
-        </div>
+        <a href="#" class="btn">
+          <img src="assets/img/icons/Vector.svg" alt="" /> Expore documentation
+        </a>
+      </div>
     </div>
 
     <footer class="container">
-        <div class="footer-top">
-            <div class="left-box">
-                <div class="logo">
-                    <img src="assets/img/icons/logo.png" alt="">
-                </div>
+      <div class="footer-top">
+        <div class="left-box">
+          <div class="logo">
+            <img src="assets/img/icons/logo.png" alt="" />
+          </div>
 
-                <div class="bottom">
-                    <img src="assets/img/icons/twit.svg" alt="">
-                    <img src="assets/img/icons/git.svg" alt="">
-                </div>
-            </div>
-
-            <div class="right-box">
-                <div class="column">
-                    <p class="title">Product</p>
-
-                    <nav>
-                        <a href="#">Database</a>
-                        <a href="#">Authentication</a>
-                        <a href="#">Storage</a>
-                        <a href="#">Functions</a>
-                        <a href="#">Coming soon</a>
-                        <a href="#">Pricing</a>
-                    </nav>
-                </div>
-
-                <div class="column">
-                    <p class="title">Resources</p>
-
-                    <nav>
-                        <a href="#">Support</a>
-                        <a href="#">Case Studies</a>
-                        <a href="#">Storage</a>
-                        <a href="#">System Status</a>
-                        <a href="#">Terms of service</a>
-
-                    </nav>
-                </div>
-
-                <div class="column">
-                    <p class="title">Developers</p>
-
-                    <nav>
-                        <a href="#">Documentation</a>
-                        <a href="#">API Reference</a>
-                        <a href="#">Guides</a>
-                    </nav>
-                </div>
-
-                <div class="column">
-                    <p class="title">Company</p>
-
-                    <nav>
-                        <a href="#">Blog</a>
-                        <a href="#">Open Source</a>
-                        <a href="#">Humans.txt</a>
-                        <a href="#">Lawyers.txt</a>
-                    </nav>
-                </div>
-            </div>
+          <div class="bottom">
+            <img src="assets/img/icons/twit.svg" alt="" />
+            <img src="assets/img/icons/git.svg" alt="" />
+          </div>
         </div>
 
-        <div class="footer-bottom">
-            <p>© Supabase Inc</p>
+        <div class="right-box">
+          <div class="column">
+            <p class="title">Product</p>
 
-            <div class="icon">
-                <img src="assets/img/icons/sun.svg" alt="">
-                <img src="assets/img/icons/button.svg" alt="">
-                <img src="assets/img/icons/moon.svg" alt="">
-            </div>
+            <nav>
+              <a href="#">Database</a>
+              <a href="#">Authentication</a>
+              <a href="#">Storage</a>
+              <a href="#">Functions</a>
+              <a href="#">Coming soon</a>
+              <a href="#">Pricing</a>
+            </nav>
+          </div>
+
+          <div class="column">
+            <p class="title">Resources</p>
+
+            <nav>
+              <a href="#">Support</a>
+              <a href="#">Case Studies</a>
+              <a href="#">Storage</a>
+              <a href="#">System Status</a>
+              <a href="#">Terms of service</a>
+            </nav>
+          </div>
+
+          <div class="column">
+            <p class="title">Developers</p>
+
+            <nav>
+              <a href="#">Documentation</a>
+              <a href="#">API Reference</a>
+              <a href="#">Guides</a>
+            </nav>
+          </div>
+
+          <div class="column">
+            <p class="title">Company</p>
+
+            <nav>
+              <a href="#">Blog</a>
+              <a href="#">Open Source</a>
+              <a href="#">Humans.txt</a>
+              <a href="#">Lawyers.txt</a>
+            </nav>
+          </div>
         </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© Supabase Inc</p>
+
+        <div class="icon">
+          <img src="assets/img/icons/sun.svg" alt="" />
+          <img src="assets/img/icons/button.svg" alt="" />
+          <img src="assets/img/icons/moon.svg" alt="" />
+        </div>
+      </div>
     </footer>
-</body>
-
+  </body>
 </html>
