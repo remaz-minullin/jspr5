@@ -44,10 +44,74 @@
         </nav>
 
         <nav>
-          <a href="#" class="btn">Start your project</a>
+          <a href="#" class="btn" onclick="showModal()">Start your project</a>
 
-          <a href="#" class="sign_in">Sign in</a>
+          <a href="#" class="sign_in" onclick="showModal2()">Sign in</a>
         </nav>
+
+        <div class="modal" id="modal" style="display: none">
+          <div class="modal_content">
+            <section class="registration container">
+              <div class="top">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="assets/img/icons/favicon.svg" alt="" />
+                    <p>Supabase</p>
+                  </a>
+                </div>
+                <h2 class="title">Регистрация</h2>
+              </div>
+
+              <div class="mid">
+                <input type="text" placeholder="введите имя" />
+                <input type="email" placeholder="введите почту" />
+                <input type="password" placeholder="придумайте пароль" />
+                <input type="password" placeholder="повторите пароль" />
+              </div>
+
+              <div class="bottom">
+                <button type="submit" class="btn">Зарегистрироваться</button>
+                <p>уже есть аккаунт? <a href="#">Войти</a></p>
+
+                <p>
+                  Продолжая, вы соглашаетесь с
+                  <a href="">
+                    Политикой конфиденциальности и условиями использования </a
+                  >.
+                </p>
+              </div>
+            </section>
+            <span onclick="hideModal()">x</span>
+          </div>
+        </div>
+
+        <div class="modal" id="modal2" style="display: none">
+          <div class="modal_content">
+            <section class="registration container">
+              <div class="top">
+                <div class="logo">
+                  <a href="index.html">
+                    <img src="assets/img/icons/favicon.svg" alt="" />
+                    <p>Supabase</p>
+                  </a>
+                </div>
+                <h2 class="title">Войти</h2>
+              </div>
+
+              <div class="mid">
+                <input type="text" placeholder="введите имя" />
+                <input type="password" placeholder="повторите пароль" />
+              </div>
+
+              <div class="bottom">
+                <button type="submit" class="btn">Войти</button>
+                <p>нет аккаунта? <a href="#">Зарегистрироваться</a></p>
+
+              </div>
+            </section>
+            <span onclick="hideModal2()">x</span>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -213,7 +277,11 @@
           </p>
 
           <p class="desc">
-            As a developer, I appreciate the open-source aspect of this storage solution. It’s easy to integrate into our existing systems, and the documentation is clear and comprehensive. The unlimited scalability means we can grow without limits, and the customizable policies allow us to maintain tight security on our files. Excellent service!
+            As a developer, I appreciate the open-source aspect of this storage
+            solution. It’s easy to integrate into our existing systems, and the
+            documentation is clear and comprehensive. The unlimited scalability
+            means we can grow without limits, and the customizable policies
+            allow us to maintain tight security on our files. Excellent service!
           </p>
         </div>
       </div>
@@ -225,7 +293,11 @@
           </p>
 
           <p class="desc">
-            While the object storage service has great potential, I found the initial setup a bit challenging. However, once I got the hang of it, the features really shined. The ability to store any file type and manage permissions is fantastic. I just wish there were more tutorials available for beginners.
+            While the object storage service has great potential, I found the
+            initial setup a bit challenging. However, once I got the hang of it,
+            the features really shined. The ability to store any file type and
+            manage permissions is fantastic. I just wish there were more
+            tutorials available for beginners.
           </p>
         </div>
       </div>
