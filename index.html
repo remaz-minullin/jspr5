@@ -46,7 +46,7 @@
         <nav>
           <a href="#" class="btn" onclick="showModal()">Start your project</a>
 
-          <a href="#" class="sign_in" onclick="showModal2()">Sign in</a>
+          <a href="#" class="sign_in" onclick="showModalTwo()">Sign in</a>
         </nav>
 
         <div class="modal" id="modal" style="display: none">
@@ -106,10 +106,9 @@
               <div class="bottom">
                 <button type="submit" class="btn">Войти</button>
                 <p>нет аккаунта? <a href="#">Зарегистрироваться</a></p>
-
               </div>
             </section>
-            <span onclick="hideModal2()">x</span>
+            <span onclick="hideModalTwo()">x</span>
           </div>
         </div>
       </div>
@@ -198,14 +197,42 @@
 
       <div class="media-content">
         <div class="left-box">
-          <nav>
-            <a href="">File previews</a>
-            <a href="">Column view</a>
-            <a href="">List view</a>
-            <a href="">Multi select actions</a>
-            <a href="">Path navigator</a>
+          <nav class="btns">
+            <a href="#" class="btn2 active" data-tab="0">File previews</a>
+            <a href="#" class="btn2" data-tab="1">Column view</a>
+            <a href="#" class="btn2" data-tab="2">List view</a>
+            <a href="#" class="btn2" data-tab="3">Multi select actions</a>
+            <a href="#" class="btn2" data-tab="4">Path navigator</a>
           </nav>
-          <img src="assets/img/banner/img1.png" alt="" />
+          <div class="texts">
+            <div class="text active">
+              <img src="assets/img/banner/img1.png" alt="" />
+            </div>
+            <div class="text">
+              <img
+                src="assets/img/banner/badfon-derevo-tuman-trava-5606.webp"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <img
+                src="assets/img/banner/1691636490_koshka-top-p-irbis-5.jpg"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <img
+                src="assets/img/banner/home1.png"
+                alt=""
+              />
+            </div>
+            <div class="text">
+              <img
+                src="assets/img/banner/hom2.jpg"
+                alt=""
+              />
+            </div>
+          </div>
         </div>
 
         <div class="right-box">

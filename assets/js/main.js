@@ -94,10 +94,31 @@ function hideModal() {
 
 let modal2 = document.getElementById("modal2");
 
-function showModal2() {
+function showModalTwo() {
   modal2.style.display = "flex";
 }
 
-function hideModal2() {
+function hideModalTwo() {
   modal2.style.display = "none";
 }
+
+document.addEventListener('DOMContentLoaded', function() {
+  const tabs = document.querySelectorAll('.btn2');
+  const contents = document.querySelectorAll('.text');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', function(e) {
+      e.preventDefault();
+      
+      tabs.forEach(t => t.classList.remove('active'));
+      contents.forEach(c => c.classList.remove('active'));
+      
+      this.classList.add('active');
+      
+      const tabIndex = this.getAttribute('data-tab');
+      if (contents[tabIndex]) {
+        contents[tabIndex].classList.add('active');
+      }
+    });
+  });
+});

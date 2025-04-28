@@ -249,6 +249,10 @@ nav a {
   height: 482px;
   border: 1px solid black;
 
+  .texts .text img {
+    width: 500px;
+    height: auto;
+  }
   nav a {
     color: var(--text2);
     padding: 7px 10px;
@@ -260,6 +264,19 @@ nav a {
     color: var(--text);
     border-radius: 5px;
     padding: 7px 10px;
+  }
+
+  .text {
+    display: none;
+  }
+
+  .text.active {
+    display: block;
+  }
+
+  .btn.active {
+    background-color: brown;
+    color: white;
   }
 }
 
